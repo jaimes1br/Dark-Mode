@@ -1,0 +1,23 @@
+.cardDark{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+    color: #EEEEEE;
+    background-color: #393E46;
+    border: 0.2em solid var(--colorOra);
+    border-radius: 2em;
+}
+
+.cardDark h5{
+    font: var(--fontTitle);
+}
+
+.cardDark p{
+    font: var(--fontNormal);
+    text-align: left;
+    margin: 1.5em ;
+}
